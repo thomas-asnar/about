@@ -61,7 +61,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  text-shadow: 0.25rem 0.25rem 0.25rem black;
 }
 
 .highlight-link {
@@ -230,7 +230,9 @@ a {
 /* Landing Page */
 
 #landing {
-  background: $bg-color;
+  background: url(/assets/img/thomas-asnar.png) 0 100% no-repeat;
+  background-color: rgb(40, 40, 40);
+  border-bottom:1px solid rgb(30, 30, 30);
   color: $text-color;
   display: flex;
   height: 100%;
