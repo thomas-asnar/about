@@ -123,6 +123,10 @@ google-analytics:
 ##plugins:
 ##  - "jekyll-github-metadata"
 
+sass:
+  style: compressed
+  sass_dir: _sass
+
 exclude:
   [
     "_assets",

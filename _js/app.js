@@ -2,11 +2,8 @@ setTimeout(function() {
   fadeOutPreloader(document.getElementById('preloader'), 69);
 }, 1500);
 
-$(document).ready(function() {
-  $(window).on('beforeunload', function() {
-    window.scrollTo(0, 0);
-  });
-
+function oldSite(){
+  
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
 
@@ -24,6 +21,14 @@ $(document).ready(function() {
   css.innerHTML = '#txt-rotate > .wrap { border-right: 0.08em solid #666 }';
   document.body.appendChild(css);
 
+  randomizeOrder();
+}
+
+$(document).ready(function() {
+  $(window).on('beforeunload', function() {
+    window.scrollTo(0, 0);
+  });
+  // oldSite()
   // Initialize AOS
   AOS.init({
     disable: 'mobile',
@@ -33,8 +38,7 @@ $(document).ready(function() {
     delay: 100,
     once: true
   });
-
-  randomizeOrder();
+  
 });
 
 /* FUNCTIONS */
