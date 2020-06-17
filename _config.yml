@@ -120,8 +120,9 @@ google-analytics:
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
-##plugins:
-##  - "jekyll-github-metadata"
+plugins:
+  - jekyll-coffeescript
+  ##  - "jekyll-github-metadata"
 
 sass:
   style: compressed
