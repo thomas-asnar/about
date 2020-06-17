@@ -21,7 +21,6 @@ function oldSite(){
   css.innerHTML = '#txt-rotate > .wrap { border-right: 0.08em solid #666 }';
   document.body.appendChild(css);
 
-  randomizeOrder();
 }
 
 $(document).ready(function() {
@@ -38,7 +37,7 @@ $(document).ready(function() {
     delay: 100,
     once: true
   });
-  
+  randomizeOrder();
 });
 
 /* FUNCTIONS */
