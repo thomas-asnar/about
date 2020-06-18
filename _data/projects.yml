@@ -37,3 +37,19 @@
   tags:
   - tag: Wordpress
   - tag: Elementor
+
+- name: Gestion des services (état des applications)
+  descr: "Application d'entreprise full stack (MVC). Sails.js ejs nodejs + MySQL + API + controller appel aux APIs XLD XLR. Permet de piloter l'état des services à gérer."
+  tags:
+  - tag: Sails.js
+  - tag: Nodejs
+  - tag: MySQL
+  - tag: API
+
+- name: Gestion des correspondances code caisse - code agence
+  descr: "Application d'entreprise full stack en remplacement du vieux Tableau Excel. Parcel Bundler Boostrap + MySQL + API (les autres applications viennent requêter ces APIs)."
+  tags:
+  - tag: Parcel Bundler
+  - tag: Boostrap CSS
+  - tag: MySQL
+  - tag: API
