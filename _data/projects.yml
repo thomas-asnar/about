@@ -54,9 +54,22 @@
   - tag: MySQL
   - tag: API
 
-- name: Mails automatiques - Rapport des reboots
-  descr: "Génération et envoi de mails automatiques pour donner un état quotidien à la Prod des reboots du parc informatique."
+- name: Rapport des reboots
+  descr: "Génération et envoi de mails automatiques pour donner un état quotidien à la Prod des reboots du parc informatique. Etat consultable sur page web également."
   tags:
   - tag: PHP
+  - tag: Oracle
+  - tag: Parcel Bundler
+  - tag: DataTable
+  - tag: VTOM
+  - tag: API
+
+ - name: Statistiques VTOM glissantes sur 13 mois
+  descr: "Site web avec base oracle partitionnée par mois. Consultation rapide avec graphique des tendances, des minimums et maximums du temps d'exécution. Rapport sur les jobs VTOM les plus longs et qui tombent en erreur très souvent. A permis de débloquer quelques chemins critiques de plan de prod VTOM."
+  tags:
+  - tag: PHP
+  - tag: Oracle
+  - tag: Parcel Bundler
+  - tag: DataTable
   - tag: VTOM
   - tag: API
