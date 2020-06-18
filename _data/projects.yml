@@ -39,7 +39,7 @@
   - tag: Elementor
 
 - name: Gestion des services (état des applications)
-  descr: "Application d'entreprise full stack (MVC). Sails.js ejs nodejs + MySQL + API + controller appel aux APIs XLD XLR. Permet de piloter l'état des services à gérer."
+  descr: "Application d'entreprise full stack (MVC) qui permet de piloter l'état des services par une IHM web, et qui permet la mise à jour du service via API par XLR et VTOM. Framework Sails.js : frontend ejs  + bdd MySQL + backend controller appel aux APIs XLD XLR et backend de présentation d'API pour les autres applications."
   tags:
   - tag: Sails.js
   - tag: Nodejs
@@ -47,9 +47,16 @@
   - tag: API
 
 - name: Gestion des correspondances code caisse - code agence
-  descr: "Application d'entreprise full stack en remplacement du vieux Tableau Excel. Parcel Bundler Boostrap + MySQL + API (les autres applications viennent requêter ces APIs)."
+  descr: "Application d'entreprise full stack en remplacement du vieux Tableau Excel. Parcel Bundler Boostrap + MySQL + API en php (les autres applications viennent requêter ces APIs)."
   tags:
   - tag: Parcel Bundler
   - tag: Boostrap CSS
   - tag: MySQL
+  - tag: API
+
+- name: Mails automatiques - Rapport des reboots
+  descr: "Génération et envoi de mails automatiques pour donner un état quotidien à la Prod des reboots du parc informatique."
+  tags:
+  - tag: PHP
+  - tag: VTOM
   - tag: API
