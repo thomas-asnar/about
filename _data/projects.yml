@@ -19,6 +19,16 @@
   tags:
     - tag: Jekyll
     - tag: GithubPages
+    
+- name: Seconde Main Limousin
+  descr: "Ma femme y référence toutes les adresses du limousin de seconde main : ressourceries, recycleries, friperies, emmaus, etc."
+  demo: https://secondemainlimousin.herokuapp.com
+  tags:
+    - tag: Sailsjs
+    - tag: API CRUD
+    - tag: Nodejs
+    - tag: API Google Map
+    - tag: MongoDb
 
 - name: Chambres d'Hôtes Limousin
   descr: "Site pour des chambres d'hôtes et gîte en Haute-Vienne. Gestion des factures et de coffrets par woocommerce."
