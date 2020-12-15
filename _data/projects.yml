@@ -32,7 +32,7 @@
 
 - name: Chambres d'Hôtes Limousin
   descr: "Site pour des chambres d'hôtes et gîte en Haute-Vienne. Gestion des factures et de coffrets par woocommerce."
-  demo: https://new.chambresdhoteslimousin.com/
+  demo: https://chambresdhoteslimousin.com/
   tags:
     - tag: Wordpress
     - tag: E-commerce
