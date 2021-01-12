@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Bloc notes informatique et VTOM
-  descr: "A la base, ce site était une simple référence où je stockais et référençais mes petites notes et astuces du moment. Quelques visiteurs ayant montré de l'intérêt, notamment pour VTOM, je m'éfforce de mettre en forme mes penses-bêtes."
+  descr: "A la base, ce site était une simple base de connaissance où je stockais et référençais mes petites notes et astuces du moment. Quelques visiteurs ayant montré de l'intérêt, notamment pour VTOM, je m'éfforce de mettre en forme mes penses-bêtes."
   demo: https://thomas-asnar.github.io
   tags:
     - tag: Jekyll
