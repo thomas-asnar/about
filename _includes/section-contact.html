@@ -1,12 +1,12 @@
 <h1 class="title">{{site.contact_title}}</h1>
 <p class="subtitle">{{site.contact_description}}</p>
-<img src="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}">
+<img src="{{ "/assets/img/carte_visite.png" | prepend: site.baseurl }}">
 <div class="contact-icons">
   {% if site.email != null %}
   <a class="social-link" aria-label="My E-Mail" href="mailto:{{site.email}}">
     <div class="social">
       <svg class="social-svg" viewBox="0 0 48 48">
-        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/carte_visite.png" | prepend: site.baseurl }}"></use>
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}"></use>
       </svg>
     </div>
   </a>
